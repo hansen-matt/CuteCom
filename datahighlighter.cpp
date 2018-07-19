@@ -27,8 +27,8 @@ DataHighlighter::DataHighlighter(QTextDocument *parent)
     m_format_time.setForeground(Qt::darkGreen);
     m_pattern_time = new QRegExp("\\d{2,2}:\\d{2,2}:\\d{2,2}:\\d{3,3} ");
     m_format_bytes.setForeground(QColor(120, 180, 200));
-    QFont font;
-    font.setFamily(font.defaultFamily());
+    QFont font("Monospace");
+    font.setStyleHint(QFont::Courier);
     font.setPointSize(10);
     m_format_bytes.setFont(font);
     m_pattern_bytes = new QRegExp("^\\d{8} ");
