@@ -41,6 +41,5 @@ CMakeFiles/*
 CPackConfig.cmake
 CPackSourceConfig.cmake
 cmake_install.cmake
-cutecom
 cutecom.spec
 cutecom_autogen/*
