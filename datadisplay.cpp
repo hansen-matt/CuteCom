@@ -375,8 +375,8 @@ void DataDisplay::setupTextFormats()
     QTextCharFormat format = cursor.charFormat();
     QColor col = QColor(Qt::black);
     format.setForeground(col);
-    QFont font;
-    font.setFamily(font.defaultFamily());
+    QFont font("Monospace");
+    font.setStyleHint(QFont::Courier);
     font.setPointSize(10);
     format.setFont(font);
     m_format_data = new QTextCharFormat(format);
