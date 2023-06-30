@@ -90,7 +90,7 @@ MainWindow::MainWindow(QWidget *parent, const QString &session)
     // initialize settings stored in the config file
     m_settings = new Settings(this);
     m_settings->readSettings(session);
-    this->setWindowTitle("CuteCom - " + m_settings->getCurrentSessionName());
+    this->setWindowTitle("CuterCom - " + m_settings->getCurrentSessionName());
 
     // restore window geometry and state from the settings
     QByteArray geometry = m_settings->getWindowGeometry();
