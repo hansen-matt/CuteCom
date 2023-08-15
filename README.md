@@ -1,8 +1,6 @@
-[![Build status](https://api.travis-ci.org/cyc1ingsir/cutecom.svg?branch=master)](https://travis-ci.org/cyc1ingsir/cutecom)
+## Welcome to _CuterCom_
 
-## Welcome to _CuteCom_
-
-CuteCom is a graphical serial terminal, like minicom. 
+CuterCom is a graphical serial terminal, like minicom. 
 Currently it runs on Linux (tested) and should run on FreeBSD, Mac OS X and maybe other systems as well (untested).  
 It is aimed mainly at hardware developers or other people who need a terminal to talk to their devices. 
 It is free software and distributed under the GNU General Public License Version 3. 
@@ -10,7 +8,7 @@ It is written using the [Qt library](http://www.qt.io/) originally created by Tr
 
 ### History
 
-The current CuteCom-version has being reimplemented using Qt 5 switching to the now available QSerialport.
+The current CuterCom-version has being reimplemented using Qt 5 switching to the now available QSerialport.
 The GUI was facelifted and amongst other features a session support was added.
 Session support comes in handy if you have two or more devices connected, each of it talking 
 in different baudrates or other connection parameters. The command history is stored for each individual session since
@@ -25,7 +23,7 @@ Version 0.30.0 is the first public release after the reimplementation.
 *   lineoriented interface instead of character-oriented
 *   Ctrl+C, Ctrl+Q and Ctrl+S control sequences work
 *   input history
-*   a cute GUI ;-)
+*   a cuter GUI ;-)
 *   session support via -s <session name> specified at the command line
 *   switching sessions via a session manager
 *   control panel hides when not used 
@@ -51,7 +49,7 @@ You'll then find a cutecom binary in the same folder.
 
 #### Requirements for Building:
 
-*   CuteCom 0.30.0 +: Qt >= 5.1, CMake >= 2.8.11
+*   CuterCom 0.30.0 +: Qt >= 5.1, CMake >= 2.8.11
 *   on linux look for the qt5 development packages including QSerialport
 *   Since C++C11 features are used a gcc supporting these is needed too
 
